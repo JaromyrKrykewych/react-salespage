@@ -1,21 +1,33 @@
 {
   "files": {
-    "main.css": "/react-salespage/static/css/main.e0bf5f4f.css",
-    "main.js": "/react-salespage/static/js/main.a3918220.js",
+    "main.css": "/react-salespage/static/css/main.d8a5e2e4.css",
+    "main.js": "/react-salespage/static/js/main.fd8719b8.js",
+    "static/media/image-brand-lg.png": "/react-salespage/static/media/image-brand-lg.40338d5098296a9dbd4a.png",
     "static/media/solution-image-bg.png": "/react-salespage/static/media/solution-image-bg.6773fbbfcd162d1065a0.png",
+    "static/media/comments-1.jpg": "/react-salespage/static/media/comments-1.30f94f557bda88cbe691.jpg",
     "static/media/home-image-bg-lg.png": "/react-salespage/static/media/home-image-bg-lg.8c0c4e48b1ca5ee685a1.png",
+    "static/media/module-two-image-sm.png": "/react-salespage/static/media/module-two-image-sm.d7e3282fdd5677ab05ff.png",
+    "static/media/comments-lg.png": "/react-salespage/static/media/comments-lg.75d5cfda946fbb83be4f.png",
+    "static/media/module-three-image-sm.png": "/react-salespage/static/media/module-three-image-sm.ea183fba4eca83834b6d.png",
+    "static/media/image-brand-sm.png": "/react-salespage/static/media/image-brand-sm.aebcb200a1c848c859b4.png",
+    "static/media/module-one-image-sm.png": "/react-salespage/static/media/module-one-image-sm.4b85f37cbc573e16c1e0.png",
+    "static/media/comments-3.jpg": "/react-salespage/static/media/comments-3.d2faca444b0b41fe6926.jpg",
+    "static/media/comments-2.jpg": "/react-salespage/static/media/comments-2.40050b55792f461e5ad6.jpg",
+    "static/media/comments-4.jpg": "/react-salespage/static/media/comments-4.6d459c3b7160116a1cae.jpg",
     "static/media/home-image-bg-sm.png": "/react-salespage/static/media/home-image-bg-sm.4f4d424ea827ab712a64.png",
     "static/media/home-image-translate-lg.png": "/react-salespage/static/media/home-image-translate-lg.345b85fbf20b225557cc.png",
+    "static/media/logo-sup-brand-lg.png": "/react-salespage/static/media/logo-sup-brand-lg.5d8e1450310f743d602a.png",
+    "static/media/logo-sup-brand.png": "/react-salespage/static/media/logo-sup-brand.bc63ffb07261c5c72f39.png",
     "static/media/slick.svg": "/react-salespage/static/media/slick.2630a3e3eab21c607e21.svg",
     "static/media/slick.eot": "/react-salespage/static/media/slick.a4e97f5a2a64f0ab1323.eot",
     "static/media/slick.ttf": "/react-salespage/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/react-salespage/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/react-salespage/index.html",
-    "main.e0bf5f4f.css.map": "/react-salespage/static/css/main.e0bf5f4f.css.map",
-    "main.a3918220.js.map": "/react-salespage/static/js/main.a3918220.js.map"
+    "main.d8a5e2e4.css.map": "/react-salespage/static/css/main.d8a5e2e4.css.map",
+    "main.fd8719b8.js.map": "/react-salespage/static/js/main.fd8719b8.js.map"
   },
   "entrypoints": [
-    "static/css/main.e0bf5f4f.css",
-    "static/js/main.a3918220.js"
+    "static/css/main.d8a5e2e4.css",
+    "static/js/main.fd8719b8.js"
   ]
 }
