@@ -1,0 +1,124 @@
+.benefits {
+  margin-top: 87px;
+  width: 100%;
+  background: linear-gradient(104.01deg, #f7b633 -4.61%, #ec4079 101.82%),
+    linear-gradient(0deg, #dfdfdf, #dfdfdf);
+  overflow: hidden;
+  padding: 53px 0;
+}
+.benefit-title {
+  text-align: center;
+}
+.benefit-title > h2 {
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 20px;
+  color: #ffffff;
+  width: 234px;
+  margin: 0 auto;
+}
+.benefit {
+  margin: 29px 0;
+  padding: 5px 0;
+  background: #f5f5f5;
+  border-radius: 5px;
+}
+.benefit > img {
+  width: 80px;
+  height: 68px;
+  margin: 12px auto;
+}
+.benefit > h3 {
+  width: 85%;
+  margin: 0 auto;
+  padding: 0 20px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 23px;
+  text-align: center;
+  color: #03293c;
+}
+.benefit > p {
+  display: block;
+  width: 85%;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 12px;
+  text-align: center;
+  color: #000000;
+  margin: 12px auto;
+}
+.slick-dots li.slick-active {
+  background: #d9004b !important;
+}
+
+@media screen and (min-width: 768px) {
+  .benefits {
+    margin: 96px auto 0;
+    width: 100%;
+    padding: 96px 10%;
+  }
+  .grid-benefits {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-gap: 18px;
+  }
+  .benefit-title {
+    text-align: left;
+    display: flex;
+    align-items: center;
+  }
+  .benefit-title > h2 {
+    width: 60%;
+    font-size: 28px;
+    line-height: 35px;
+    margin: 0;
+  }
+  .benefit {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .benefit > img {
+    margin: 23px;
+  }
+  .benefit > h3 {
+    font-size: 15px;
+    line-height: 17px;
+    text-align: left;
+  }
+  .benefit > p {
+    font-size: 15px;
+    line-height: 18px;
+    text-align: left;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .benefit-title > h2 {
+    width: 60%;
+    font-size: 48px;
+    line-height: 50px;
+    margin: 0;
+  }
+  .benefit > img {
+    margin: 23px;
+  }
+  .benefit > h3 {
+    font-size: 16px;
+    line-height: 23px;
+    text-align: left;
+  }
+  .benefit > p {
+    font-size: 16px;
+    line-height: 24px;
+    text-align: left;
+  }
+}

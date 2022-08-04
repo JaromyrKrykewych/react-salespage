@@ -1,0 +1,184 @@
+.problems {
+  position: relative;
+  margin-top: 74px;
+  overflow: hidden;
+}
+.problems > h3 {
+  width: 80%;
+  margin: 0 auto;
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  color: #03293c;
+}
+.problems > h4 {
+  width: 50%;
+  margin: 18px auto;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 16px;
+  text-align: center;
+  color: #03293c;
+}
+.pains {
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+/* the slides */
+.slick-arrow {
+  display: none;
+}
+.slick-list {
+  margin: 0 -10px;
+}
+.slick-dots {
+  bottom: -30px;
+}
+.slick-dots li {
+  width: 10px;
+  height: 10px;
+  border-radius: 45%;
+  margin: 0 12px;
+  background: rgba(173, 173, 173, 0.5);
+}
+.slick-dots li.slick-active {
+  background: #adadad;
+}
+.slick-slide > div {
+  margin: 0 10px;
+}
+.slick-dots li button {
+  display: none;
+}
+.pain {
+  padding: 22px;
+  margin-bottom: 20px;
+  background: #f5f5f5;
+  border-radius: 5px;
+  height: 188px;
+}
+.pain > img {
+  width: 78px;
+  height: 55px;
+  margin: 0 auto;
+  object-fit: cover;
+}
+.pain > h2 {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 23px;
+  text-align: center;
+  color: #03293c;
+  margin: 10px 0;
+}
+.pain > p {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 12px;
+  text-align: center;
+  color: #03293c;
+}
+
+@media screen and (min-width: 768px) {
+  .problems > h3 {
+    width: 60%;
+    font-size: 36px;
+    line-height: 40px;
+  }
+  .problems > h4 {
+    margin: 21px auto;
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .pains {
+    margin-top: 40px;
+  }
+  .slick-slide > div {
+    margin: 0 20px;
+  }
+  .pain {
+    padding: 25px;
+    height: 256px;
+  }
+  .pain > img {
+    width: 89px;
+    height: 63px;
+  }
+  .pain > h2 {
+    font-size: 16px;
+    line-height: 23px;
+    margin: 13px 0;
+  }
+  .pain > p {
+    font-size: 16px;
+    line-height: 24px;
+    margin: 0px 0 13px;
+  }
+  .problem-aside {
+    position: absolute;
+    width: 10%;
+    height: 480px;
+    top: 0;
+    display: flex;
+    justify-content: center;
+  }
+  .problem-aside > div {
+    width: 67px;
+    height: 192px;
+    margin: 0 30px;
+    background: #c4c4c4;
+    transform: matrix(1, 0, 0, -1, 0, 0);
+    transform: translateY(68px);
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .problems {
+    overflow: visible;
+  }
+  .problems > h3 {
+    width: 60%;
+    font-size: 42px;
+    line-height: 48px;
+  }
+  .problems > h4 {
+    margin: 21px auto;
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .pains {
+    margin: 0 5%;
+    margin-top: 60px;
+  }
+  .slick-slide > div {
+    margin: 0 30px;
+  }
+  .pain {
+    padding: 35px;
+    height: 256px;
+  }
+  .pain > img {
+    width: 109px;
+    height: 83px;
+    object-fit: contain;
+  }
+  .pain > h2 {
+    font-size: 16px;
+    line-height: 23px;
+    margin: 16px 0;
+  }
+  .pain > p {
+    font-size: 16px;
+    line-height: 24px;
+    margin: 16px 0;
+  }
+}

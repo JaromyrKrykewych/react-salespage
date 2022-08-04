@@ -1,0 +1,232 @@
+.home {
+  position: relative;
+  height: 367px;
+  background: linear-gradient(
+    102.25deg,
+    rgba(247, 182, 51, 0.15) 8.14%,
+    rgba(236, 64, 121, 0.15) 90.18%
+  );
+}
+.home-main {
+  position: relative;
+  height: 230px;
+}
+.info-text {
+  z-index: 1;
+  position: absolute;
+  top: 0;
+  left: 43px;
+}
+.info-text > h2 {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  display: flex;
+  align-items: flex-end;
+  text-transform: uppercase;
+  color: #03293c;
+}
+.info-text > h3 {
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 20px;
+  display: flex;
+  align-items: flex-end;
+  color: #03293c;
+  width: 111px;
+  padding: 26px 0;
+}
+.info-text > p {
+  display: none;
+}
+.info-text > .btn-home {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 20px;
+  padding: 10px 14px;
+}
+.info-image {
+  z-index: 2;
+  position: relative;
+  top: 36px;
+  right: 0;
+  margin-left: auto;
+  width: 190px;
+  height: 179px;
+}
+.info-image > :nth-child(1) {
+  z-index: inherit;
+  width: 190px;
+  height: 179px;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.info-image > :nth-child(2) {
+  z-index: 3;
+  width: 66px;
+  height: 54px;
+  position: absolute;
+  left: -14px;
+  bottom: -23px;
+}
+.home-scroll {
+  position: absolute;
+  left: 43px;
+  bottom: 10px;
+  display: flex;
+  opacity: 0.2;
+  cursor: pointer;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+  color: #000000;
+  display: flex;
+  align-items: center;
+  transition: all ease .6s;
+}
+.home-scroll:hover {
+  opacity: 0.6;
+}
+.home-scroll > img {
+  width: 22px;
+  height: 15px;
+  margin-right: 13px;
+}
+
+@media screen and (min-width: 768px) {
+  .home {
+    height: 480px;
+  }
+  .aside {
+    position: absolute;
+    width: 10%;
+    height: 480px;
+    top: 0;
+    display: flex;
+    justify-content: center;
+  }
+  .aside > div {
+    width: 90px;
+    height: 480px;
+    margin: 0 30px;
+    background: #c4c4c4;
+    transform: translateY(38px);
+  }
+  .info-text {
+    top: 40px;
+    left: 10%;
+  }
+  .info-text > h2 {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .info-text > h3 {
+    font-size: 32px;
+    line-height: 34px;
+    width: 351px;
+    padding: 18px 0;
+  }
+  .info-text > p {
+    display: block;
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #03293c;
+    width: 351px;
+    padding: 0 0 35px 0;
+  }
+  .info-text > .btn-home {
+    width: 112px;
+    height: 37px;
+    border-radius: 7px;
+  }
+  .info-image {
+    top: 80px;
+    right: 10%;
+    width: 226px;
+    height: 204px;
+  }
+  .info-image > :nth-child(1) {
+    width: 226px;
+    height: 204px;
+    object-fit: cover;
+    border-radius: 5px;
+  }
+  .info-image > :nth-child(2) {
+    width: 126px;
+    height: 94px;
+    left: -33px;
+    bottom: -28px;
+    border-radius: 5px;
+  }
+  .home-scroll {
+    left: 10%;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .home {
+    height: 720px;
+  }
+  .aside > div {
+    width: 176px;
+    height: 720px;
+    margin: 0 34px;
+    background: #c4c4c4;
+    transform: translateY(88px);
+  }
+  .info-text {
+    top: 75px;
+    left: 12%;
+  }
+  .info-text > h2 {
+    font-size: 16px;
+    line-height: 23px;
+  }
+  .info-text > h3 {
+    font-size: 48px;
+    line-height: 50px;
+    width: 551px;
+    padding: 18px 0;
+  }
+  .info-text > p {
+    font-size: 16px;
+    line-height: 24px;
+    width: 512px;
+    padding: 0 0 35px 0;
+  }
+  .info-text > .btn-home {
+    width: 132px;
+    height: 47px;
+    border-radius: 7px;
+  }
+  .info-image {
+    right: 12%;
+    width: 366px;
+    height: 344px;
+  }
+  .info-image > :nth-child(1) {
+    width: 366px;
+    height: 344px;
+  }
+  .info-image > :nth-child(2) {
+    width: 176px;
+    height: 144px;
+    transform: translate(-49px, 64px);
+  }
+  .home-scroll {
+    left: 12%;
+    bottom: 50px;
+  }
+}
