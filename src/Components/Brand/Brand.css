@@ -1,0 +1,177 @@
+.brand {
+  margin-top: 157px;
+}
+.brand-image {
+  position: relative;
+  width: 274px;
+  height: 244px;
+  margin: 0 auto;
+}
+.brand-image > :nth-child(1) {
+  width: inherit;
+  height: inherit;
+  border-radius: 5px;
+}
+.brand-image > :nth-child(2) {
+  position: absolute;
+  top: -20px;
+  left: -42px;
+  width: 126px;
+  height: 116px;
+}
+.brand-image > :nth-child(3) {
+  position: absolute;
+  bottom: -25px;
+  right: -43px;
+  width: 64px;
+  height: 51px;
+}
+.brand-text > h4 {
+  width: 80%;
+  margin: 30px auto 12px;
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 23px;
+  text-align: center;
+  color: #d9004b;
+}
+.brand-text > h2 {
+  width: 80%;
+  margin: 7px auto;
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  text-align: center;
+  color: #03293c;
+}
+.brand-text > p {
+  width: 80%;
+  margin: 10px auto;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  text-align: center;
+  color: #03293c;
+}
+.brand-text > ul {
+  display: none;
+}
+@media screen and (min-width: 768px) {
+  .brand {
+    margin-top: 175px;
+    display: flex;
+  }
+  .brand-image {
+    width: 216px;
+    height: 250px;
+  }
+  .brand-image > :nth-child(2) {
+    left: -73px;
+    top: -56px;
+    width: 123px;
+    height: 124px;
+  }
+  .brand-image > :nth-child(3) {
+    bottom: -40px;
+    right: -40px;
+    width: 70px;
+    height: 70px;
+  }
+  .brand-text {
+    width: 50%;
+  }
+  .brand-text > h4 {
+    width: 90%;
+    margin: 0px 0 12px;
+    font-size: 18px;
+    line-height: 23px;
+    text-align: left;
+  }
+  .brand-text > h2 {
+    width: 90%;
+    margin: 7px 0;
+    font-size: 25px;
+    line-height: 28px;
+    text-align: left;
+  }
+  .brand-text > p {
+    width: 90%;
+    margin: 0;
+    font-size: 15px;
+    line-height: 20px;
+    text-align: left;
+  }
+  .brand-text > ul {
+    margin: 25px 0;
+    display: flex;
+  }
+  .brand-text > ul > li {
+    list-style: none;
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    color: rgba(0, 0, 0, 0.5);
+    padding: 0 10px;
+  }
+  .brand-text > ul > :nth-child(2) {
+    padding: 0 10px;
+    border-left: 1px solid #9d9d9d;
+    border-right: 1px solid #9d9d9d;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .brand {
+    margin-top: 192px;
+  }
+  .brand-image {
+    width: 366px;
+    height: 400px;
+  }
+  .brand-image > :nth-child(2) {
+    left: -73px;
+    top: -56px;
+    width: 183px;
+    height: 184px;
+  }
+  .brand-image > :nth-child(3) {
+    bottom: -40px;
+    right: -40px;
+    width: 88px;
+    height: 88px;
+  }
+  .brand-text > h4 {
+    margin: 0px 0 12px;
+    font-size: 23px;
+    line-height: 26px;
+  }
+  .brand-text > h2 {
+    margin: 7px 0;
+    font-size: 42px;
+    line-height: 48px;
+  }
+  .brand-text > p {
+    margin: 21px 0;
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .brand-text > ul {
+    margin: 37px 0;
+  }
+  .brand-text > ul > li {
+    font-size: 12px;
+    line-height: 20px;
+  }
+  .brand-text > ul > :nth-child(2) {
+    padding: 0 16px;
+  }
+}

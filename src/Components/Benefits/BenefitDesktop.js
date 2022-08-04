@@ -10,7 +10,7 @@ const BenefitDesktop = ({ benefits }) => {
           initial={{ opacity: 0, y: -100 }}
           animate={{ opacity: 1, y: 0 }}
           exit={{opacity: 0, y: 100}}
-          transition={{ type: 'spring', duration: 3, delay: 0 }}
+          transition={{ type: 'spring', duration: 3}}
         >
           Here's what we can do together
         </motion.h2>
@@ -23,7 +23,7 @@ const BenefitDesktop = ({ benefits }) => {
             initial={{ opacity: 0, y: -100 }}
             animate={{ opacity: 1, y: 0 }}
             exit={{opacity: 0, y: 100}}
-            transition={{ type: 'spring', duration: 3, delay: `0.5 * ${idx + 1}` }}
+            transition={{ type: 'spring', duration: 3}}
           >
             <img src={benefit.image} alt={`pic-${idx}`} />
             <h3>{benefit.title}</h3>

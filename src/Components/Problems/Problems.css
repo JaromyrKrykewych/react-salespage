@@ -181,4 +181,7 @@
     line-height: 24px;
     margin: 16px 0;
   }
+  .slick-list {
+    margin: 0;
+  }
 }

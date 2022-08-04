@@ -45,13 +45,20 @@ const Header = () => {
             <ul>
               <li>
                 <img src={arrowRed} alt='list-style' />
-                Sobre nosotros
+                <Link
+                  onClick={() => setMenuOpened(false)}
+                  activeClass='active'
+                  to='brand'
+                  span='true'
+                  smooth={true}
+                >
+                  Sobre nosotros
+                </Link>
               </li>
               <li>
                 <img src={arrowRed} alt='list-style' />
                 <Link
                   onClick={() => setMenuOpened(false)}
-                  activeClass='active'
                   to='services'
                   span='true'
                   smooth={true}
