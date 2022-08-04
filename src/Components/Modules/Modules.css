@@ -1,0 +1,248 @@
+.modules {
+  margin-top: 107px;
+}
+.modules-title {
+  margin: 43px 0;
+  display: flex;
+  justify-content: center;
+}
+.modules-title > h2 {
+  width: 80%;
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 20px;
+  line-height: 22px;
+  text-align: center;
+  color: #000000;
+}
+.modules-flex {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+.module {
+  display: flex;
+  flex-direction: column-reverse;
+}
+.module-image {
+  position: relative;
+  width: 100%;
+  max-width: 450px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.module-image > img {
+  width: inherit;
+  object-fit: cover;
+}
+.module-image > div {
+  position: absolute;
+  width: 234px;
+  height: 46px;
+  background: #f5f5f5;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.module-image > div > h2 {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #d9004b;
+}
+.module-text {
+  margin-top: 30px;
+}
+.module-text > h3 {
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 20px;
+  text-align: center;
+  color: #000000;
+  text-transform: capitalize;
+}
+.module-text > p {
+  margin: 21px 10%;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  text-align: justify;
+  color: #000000;
+}
+.module-text > ul {
+  margin: 0 10%;
+}
+.module-text > ul > li {
+  list-style: none;
+  padding: 8px 0;
+  display: flex;
+  align-items: center;
+}
+.module-text > ul > li > img {
+  width: 17px;
+  height: 17px;
+  margin-right: 4px;
+  object-fit: cover;
+}
+.module-text > ul > li > span {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  display: flex;
+  align-items: flex-end;
+  color: #000000;
+}
+.module-text > .btn-module {
+  display: block;
+  margin: 20px auto 0;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+}
+@media screen and (min-width: 768px) {
+  .modules {
+    margin-top: 135px;
+  }
+  .modules-title {
+    margin-bottom: 115px;
+  }
+  .modules-title > h2 {
+    font-size: 35px;
+    line-height: 38px;
+  }
+  .modules-flex {
+    width: 100%;
+    gap: 76px;
+  }
+  .module {
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .module-image {
+    width: 95%;
+    max-width: 800px;
+  }
+  .module-image > img {
+    border-radius: 5px 0 0 5px;
+    margin-left: auto;
+  }
+  .module-text {
+    width: 90%;
+    margin: 0;
+    padding-left: 5%;
+    align-self: center;
+    justify-self: center;
+  }
+  .module-text > span {
+    display: block;
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    text-transform: uppercase;
+    color: #d9004b;
+    margin-bottom: 10px;
+  }
+  .module-text > h3 {
+    font-size: 26px;
+    line-height: 30px;
+    text-align: left;
+  }
+  .module-text > p {
+    font-size: 16px;
+    line-height: 20px;
+    margin: 16px 0;
+    text-align: left;
+  }
+  .module-text > ul {
+    margin: 0;
+  }
+  .module-text > ul > li > img {
+    width: 16px;
+    height: 16px;
+  }
+  .module-text > ul > li > span {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .module-text > .btn-module {
+    margin: 20px 0 0;
+    border-radius: 7px;
+    font-size: 15px;
+  }
+  .module:nth-of-type(2) {
+    flex-direction: row-reverse;
+  }
+  .module:nth-of-type(2) > .module-image > img {
+    border-radius: 0 5px 5px 0;
+    margin-left: 0;
+    margin-right: auto;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .modules {
+    margin-top: 165px;
+  }
+  .modules-title {
+    margin-bottom: 165px;
+  }
+  .modules-title > h2 {
+    font-size: 48px;
+    line-height: 50px;
+  }
+  .module-flex {
+    gap: 96px;
+  }
+  .module-text > span {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  .module-text > h3 {
+    font-size: 42px;
+    line-height: 48px;
+  }
+  .module-text > p {
+    font-size: 16px;
+    line-height: 24px;
+    margin: 21px 0;
+  }
+  .module-text > ul {
+    margin: 16px 0;
+  }
+  .module-text > ul > li {
+    padding: 5px 0;
+  }
+  .module-text > ul > li > img {
+    width: 16px;
+    height: 16px;
+  }
+  .module-text > ul > li > span {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .module-text > .btn-module {
+    margin: 43px 0 0;
+    padding: 12px 18px;
+    border-radius: 7px;
+    font-size: 16px;
+  }
+}
