@@ -33,12 +33,15 @@
 .benefit > h3 {
   width: 85%;
   margin: 0 auto;
-  padding: 0 20px;
+  padding: 0 10px;
+  height: 50px;
   font-family: "Lato";
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
   line-height: 23px;
+  display: flex;
+  align-items: center;
   text-align: center;
   color: #03293c;
 }
@@ -53,7 +56,7 @@
   line-height: 12px;
   text-align: center;
   color: #000000;
-  margin: 12px auto;
+  margin: 8px auto 12px;
 }
 .slick-dots li.slick-active {
   background: #d9004b !important;

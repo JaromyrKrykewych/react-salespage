@@ -168,6 +168,9 @@
     width: 14px;
     height: 14px;
   }
+  .slick-dots {
+    width: auto;
+  }
 }
 @media screen and (min-width: 1024px) {
   .comments-title {
