@@ -1,7 +1,9 @@
 {
   "files": {
-    "main.css": "/react-salespage/static/css/main.d8a5e2e4.css",
-    "main.js": "/react-salespage/static/js/main.fd8719b8.js",
+    "main.css": "/react-salespage/static/css/main.e714805e.css",
+    "main.js": "/react-salespage/static/js/main.c4df0811.js",
+    "static/media/foda-bg-lg.png": "/react-salespage/static/media/foda-bg-lg.64d8f31dd02f76be6547.png",
+    "static/media/foda-bg.png": "/react-salespage/static/media/foda-bg.71345fabe3b72b127f0b.png",
     "static/media/image-brand-lg.png": "/react-salespage/static/media/image-brand-lg.40338d5098296a9dbd4a.png",
     "static/media/solution-image-bg.png": "/react-salespage/static/media/solution-image-bg.6773fbbfcd162d1065a0.png",
     "static/media/comments-1.jpg": "/react-salespage/static/media/comments-1.30f94f557bda88cbe691.jpg",
@@ -23,11 +25,11 @@
     "static/media/slick.ttf": "/react-salespage/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/react-salespage/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/react-salespage/index.html",
-    "main.d8a5e2e4.css.map": "/react-salespage/static/css/main.d8a5e2e4.css.map",
-    "main.fd8719b8.js.map": "/react-salespage/static/js/main.fd8719b8.js.map"
+    "main.e714805e.css.map": "/react-salespage/static/css/main.e714805e.css.map",
+    "main.c4df0811.js.map": "/react-salespage/static/js/main.c4df0811.js.map"
   },
   "entrypoints": [
-    "static/css/main.d8a5e2e4.css",
-    "static/js/main.fd8719b8.js"
+    "static/css/main.e714805e.css",
+    "static/js/main.c4df0811.js"
   ]
 }
